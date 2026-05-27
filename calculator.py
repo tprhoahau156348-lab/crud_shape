@@ -1,12 +1,10 @@
 class Shape:
 
-    def get_area():
+    def get_area(self):
         pass
 
-
-    def get_perimeter():
+    def get_perimeter(self):
         pass
 
-    def __str__():
-        pass
-
+    def __str__(self):
+        return "Generic Shape"
