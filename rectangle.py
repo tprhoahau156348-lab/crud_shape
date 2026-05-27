@@ -7,6 +7,11 @@ class Rectangle(Shape):
         self.height = height
 
     def get_area(self):
-        pass
+        
+        return self.width * self.height
+    
     def get_perimeter(self):
-        pass
+        return 2 * (self.width + self.height)
+    
+    def __str__(self):
+        return f"Rectangle(width={self.width}, height={self.height})"
